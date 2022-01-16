@@ -13,3 +13,4 @@ function closeMenu(event) {
         MENU.classList.remove('open');
         BURGER.classList.remove('active');
     }
+  }    

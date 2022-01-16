@@ -612,7 +612,7 @@ footer .logo {
   transition: 0.6s;
   background-repeat: no-repeat;
 }
-footer nav {
+footer .footer-nav {
   margin-top: 0;
   padding-left: 0;
 }
@@ -638,7 +638,7 @@ footer nav {
 .nav-wrapper a:hover {
   text-decoration: underline;
 }
-.nav-wrapper nav {
+.nav-wrapper .footer-nav {
   width: 600px;
 }
 footer .nav-wrapper li:not(:last-child) {

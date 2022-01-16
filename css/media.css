@@ -1,5 +1,6 @@
 @media (max-width: 1200px) {
-  .container {
+  .container,
+  header .container {
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -39,7 +40,8 @@
 }
 
 @media (max-width: 1060px) {
-  .container {
+  .container,
+  header .container {
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -143,7 +145,7 @@
   footer .nav-wrapper li:not(:last-child) {
     margin-right: 0;
   }
-  .nav-wrapper nav {
+  .nav-wrapper .footer-nav {
     width: 280px;
   }
   .nav-wrapper a {
@@ -373,7 +375,7 @@
   footer .nav-wrapper li {
     width: 110px;
   }
-  .nav-wrapper nav {
+  .nav-wrapper .footer-nav {
     width: 220px;
   }
   footer .logo {
@@ -385,7 +387,7 @@
   .nav-wrapper {
     justify-content: space-around;
   }
-  .nav-wrapper nav {
+  .nav-wrapper .footer-nav {
     width: 110px;
   }
 }
