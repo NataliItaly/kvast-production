@@ -1,6 +1,5 @@
 @media (max-width: 1200px) {
-  .container,
-  header .container {
+  .container {
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -40,8 +39,7 @@
 }
 
 @media (max-width: 1060px) {
-  .container,
-  header .container {
+  .container {
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -119,6 +117,7 @@
   }
   .novice .item-wrapper {
     flex-wrap: wrap;
+    width: 100%;
   }
   .novice-item.left,
   .novice-item.right {
@@ -145,7 +144,7 @@
   footer .nav-wrapper li:not(:last-child) {
     margin-right: 0;
   }
-  .nav-wrapper .footer-nav {
+  .nav-wrapper nav {
     width: 280px;
   }
   .nav-wrapper a {
@@ -375,7 +374,7 @@
   footer .nav-wrapper li {
     width: 110px;
   }
-  .nav-wrapper .footer-nav {
+  .nav-wrapper nav {
     width: 220px;
   }
   footer .logo {
@@ -387,7 +386,7 @@
   .nav-wrapper {
     justify-content: space-around;
   }
-  .nav-wrapper .footer-nav {
+  .nav-wrapper nav {
     width: 110px;
   }
 }

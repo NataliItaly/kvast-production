@@ -76,8 +76,8 @@ header .container {
   transition: 0.6s all ease;
 }
 header ul {
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
+  border-top: 1px solid #b39257;
+  border-bottom: 1px solid #b39257;
   padding-left: 56px;
   display: flex;
   justify-content: space-between;
@@ -94,11 +94,12 @@ header a {
   letter-spacing: 1px;
   padding-top: 23px;
   padding-bottom: 19px;
-  color: #ffffff;
+  color: #ddcca7;
   text-transform: uppercase;
 }
 header a:hover {
   text-decoration: underline;
+  color: #ffffff;
 }
 .logo {
   background-image: url(../img/logo.png);
@@ -151,7 +152,7 @@ header a:hover {
 }
 
 h1 {
-  color: #ffffff;
+  color: #ddcca7;
   width: 705px;
   text-align: center;
   padding-top: 155px;
@@ -256,28 +257,29 @@ button {
   width: 146px;
   height: 50px;
   background: transparent;
-  border: 2px solid rgb(197, 71, 13);
-  color: rgb(197, 71, 13);
+  border: 2px solid rgb(175 115 58);
+  color: rgb(175 115 58);
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
 }
 .more:hover {
-  background-color: rgb(197, 71, 13);
+  background-color: rgb(175 115 58); /*rgb(197, 71, 13);*/
   color: #ffffff;
 }
 .buy {
   width: 110px;
   height: 50px;
-  background-color: rgb(197, 71, 13);
+  background-color: rgb(175 115 58); /*rgb(197, 71, 13);*/
   color: #ffffff;
   text-transform: uppercase;
   font-size: 16px;
 }
 .buy:hover {
   background-color: transparent;
-  color: rgb(197, 71, 13);
-  border: 1px solid rgb(197, 71, 13);
+  color: rgb(175 115 58); /*rgb(197, 71, 13);*/
+  border: 2px solid rgb(175 115 58); /*rgb(197, 71, 13);*/
+  font-weight: bold;
 }
 .item-price {
   width: 70px;
@@ -314,28 +316,28 @@ button {
   padding-right: 90px;
 }
 .self-item:nth-child(1) {
-  background-image: url("../img/self-made-svg/cooking_pot.svg");
+  background-image: url("../img/self-made-svg/cooking_pot.png");
   background-repeat: no-repeat;
   background-position: 25% top;
-  background-size: 80px;
-  filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
-    brightness(90%) contrast(90%);
+  background-size: 50px;
+  /*  filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
+    brightness(90%) contrast(90%); */
 }
 .self-item:nth-child(2) {
-  background-image: url("../img/self-made-svg/matryoshka.svg");
+  background-image: url("../img/self-made-svg/matryoshka.png");
   background-repeat: no-repeat;
   background-position: 30% top;
-  background-size: 75px;
-  filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
-    brightness(90%) contrast(90%);
+  background-size: 46px;
+  /* filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
+    brightness(90%) contrast(90%); */
 }
 .self-item:nth-child(3) {
-  background-image: url("../img/self-made-svg/thumb_up.svg");
+  background-image: url("../img/self-made-svg/thumb_up.png");
   background-repeat: no-repeat;
   background-position: 30% top;
-  background-size: 70px;
-  filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
-    brightness(90%) contrast(90%);
+  background-size: 60px;
+  /* filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
+    brightness(90%) contrast(90%); */
 }
 .self-made .origin-title {
   margin-bottom: 10px;
@@ -612,7 +614,7 @@ footer .logo {
   transition: 0.6s;
   background-repeat: no-repeat;
 }
-footer .footer-nav {
+footer nav {
   margin-top: 0;
   padding-left: 0;
 }
@@ -632,13 +634,14 @@ footer .footer-nav {
   letter-spacing: 1px;
   padding-top: 23px;
   padding-bottom: 19px;
-  color: #ffffff;
+  color: #ddcca7;
   text-transform: uppercase;
 }
 .nav-wrapper a:hover {
   text-decoration: underline;
+  color: #ffffff;
 }
-.nav-wrapper .footer-nav {
+.nav-wrapper nav {
   width: 600px;
 }
 footer .nav-wrapper li:not(:last-child) {
@@ -697,6 +700,7 @@ li:nth-of-type(3) .social-links-item {
   width: 217px;
   padding-left: 0;
   margin-left: -90px;
+  color: #ddcca7;
 }
 .logo-wrapper {
   display: flex;
@@ -715,10 +719,12 @@ li:nth-of-type(3) .social-links-item {
 .development {
   font-size: 14px;
   padding-right: 15px;
+  color: #ddcca7;
 }
 .development a {
-  color: #ffffff;
+  color: #ddcca7;
 }
 .development a:hover {
   text-decoration: underline;
+  color: #ffffff;
 }
