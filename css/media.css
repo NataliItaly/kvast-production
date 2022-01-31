@@ -161,7 +161,7 @@
   .header-nav {
     width: 100%;
     height: 150vh;
-    background-color: rgb(241, 177, 92, 0.9);
+    background-color: rgb(133 101 58 / 90%);
     position: absolute;
     top: 0;
     transform: translate(-200%);
@@ -179,6 +179,7 @@
   }
   header a {
     font-size: 23px;
+    color: #ffffff;
   }
   .burger-menu {
     display: block;
@@ -229,28 +230,22 @@
     text-align: center;
   }
   .self-item:nth-child(1) {
-    background-image: url("../img/self-made-svg/cooking_pot.svg");
+    background-image: url("../img/self-made-svg/cooking_pot.png");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 80px;
-    filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
-      brightness(90%) contrast(90%);
+    background-size: 50px;
   }
   .self-item:nth-child(2) {
-    background-image: url("../img/self-made-svg/matryoshka.svg");
+    background-image: url("../img/self-made-svg/matryoshka.png");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 75px;
-    filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
-      brightness(90%) contrast(90%);
+    background-size: 50px;
   }
   .self-item:nth-child(3) {
-    background-image: url("../img/self-made-svg/thumb_up.svg");
+    background-image: url("../img/self-made-svg/thumb_up.png");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 70px;
-    filter: invert(31%) sepia(21%) saturate(6840%) hue-rotate(4deg)
-      brightness(90%) contrast(90%);
+    background-size: 50px;
   }
   .origin-title {
     font-size: 16px;
@@ -323,6 +318,7 @@
     margin: 0 auto;
     padding-bottom: 40px;
     border-bottom: 1px solid rgb(175, 138, 103);
+    text-align: center;
   }
   .self-item:nth-child(2) {
     border-left: none;
@@ -358,8 +354,13 @@
   .order .container {
     padding-bottom: 60px;
   }
+  .novice-item.left,
+  .novice-item.right {
+    width: 100%;
+  }
   h1 {
     font-size: 32px;
+    color: #f3dfc5;
   }
   .checkbox-subscribe {
     font-size: 10px;
